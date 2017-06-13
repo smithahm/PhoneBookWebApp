@@ -1,0 +1,27 @@
+<form class="form-horizontal" role="form" ng-submit="createContact()">
+    <div class="form-group">
+      <label for="title" class="col-sm-2 control-label">First Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="title" placeholder="First Name" ng-model="contact.firstName">
+        </div>
+        <label for="title" class="col-sm-2 control-label">Last Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="title" placeholder="Last Name" ng-model="contact.lastName">
+        </div>
+        <label for="title" class="col-sm-2 control-label">Email ID</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="title" placeholder="Email ID" ng-model="contact.emailID">
+            <span ng-show="form.form-control.$error.email">Not a valid e-mail address</span>
+        </div>
+        <label for="title" class="col-sm-2 control-label">Phone Number</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="title" placeholder="Phone Number" ng-model="contact.phoneNumber">
+        </div>
+    </div>
+    <div class="btn-toolbar">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button class="btn btn-default">Save</button>
+            <button type="button" class="btn btn-default"  ng-click="cancelContact()">Cancel</button>
+        </div>
+    </div>
+</form>
