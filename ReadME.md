@@ -13,3 +13,7 @@
  Frontend :: Uses AngularJS 1. 2, Bootstrap HTML/CSS.
  
  Database :: MongoDB 
+ 
+ To Do: Have to complete below functionality
+ Add to Group 
+ Delete from Group 
