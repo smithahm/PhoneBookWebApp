@@ -17,3 +17,15 @@
  To Do: Have to complete below functionality
  Add to Group 
  Delete from Group 
+ 
+ How to run the program?
+ 
+ Open the program folder in terminal and
+ 
+ 1. mvn clean
+ 
+ 2. mvn clean verify
+ 
+ 3. then execute the below command
+ 
+ java -jar target/phonebook-0.0.1-SNAPSHOT.jar
